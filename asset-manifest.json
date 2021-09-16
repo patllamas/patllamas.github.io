@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.f0da8b4a.chunk.css",
-    "main.js": "/static/js/main.01cfc45f.chunk.js",
-    "main.js.map": "/static/js/main.01cfc45f.chunk.js.map",
+    "main.js": "/static/js/main.11d5294e.chunk.js",
+    "main.js.map": "/static/js/main.11d5294e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1729193c.js",
     "runtime-main.js.map": "/static/js/runtime-main.1729193c.js.map",
     "static/js/2.321b1320.chunk.js": "/static/js/2.321b1320.chunk.js",
@@ -12,7 +12,7 @@
     "static/js/2.321b1320.chunk.js.LICENSE.txt": "/static/js/2.321b1320.chunk.js.LICENSE.txt",
     "static/media/coolbot.png": "/static/media/coolbot.cba3fb8f.png",
     "static/media/lord_fairfax.png": "/static/media/lord_fairfax.e8e5f96c.png",
-    "static/media/pat.png": "/static/media/pat.8abdeb46.png",
+    "static/media/pat.png": "/static/media/pat.036445fd.png",
     "static/media/index.css": "/static/media/vlad-tchompalov-dHjV9czPNHs-unsplash.0ae35619.jpg",
     "static/media/zerazal.png": "/static/media/zerazal.a627f7fe.png"
   },
@@ -20,6 +20,6 @@
     "static/js/runtime-main.1729193c.js",
     "static/js/2.321b1320.chunk.js",
     "static/css/main.f0da8b4a.chunk.css",
-    "static/js/main.01cfc45f.chunk.js"
+    "static/js/main.11d5294e.chunk.js"
   ]
 }
