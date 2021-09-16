@@ -10,7 +10,7 @@
 }
 
 .Projects:hover {
-    transform: scale(1.2, 1.2);
+    transform: scale(1.1, 1.1);
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.25);
 }
 
@@ -29,19 +29,21 @@
 
 .Projects h3 {
     color: white;
+    font-weight: 500;
     font-size: 30px;
     margin: 20px 0 0 20px;
-    width: 190px;
+    width: 450px;
 }
 
 .Projects p {
     color: rgba(255, 255, 255, 0.8);
-    font-weight: 600;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 17px;
     text-transform: uppercase;
-    align-self: end;
-    margin: 0 0 20px 20px;
+    align-items: end;
+    margin: 255px 0 20px 20px;
 }
+
 
 .CardGroup {
     margin: 50px 40px 100px; 
@@ -50,4 +52,3 @@
     grid-template-columns: repeat(1,1fr);
     gap: 60px;
 }
-

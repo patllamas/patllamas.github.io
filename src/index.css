@@ -44,7 +44,7 @@ a {
 
 /* specific stuff  */
 .wallpaper {
-    background-image: url('../src/images/hitoshi-namura-MyiYvI-EKis-unsplash.jpg');
+    background-image: url('../src/images/vlad-tchompalov-dHjV9czPNHs-unsplash.jpg');
     background-position: cetner;
     background-size: cover;
     opacity: 0.2;
@@ -92,7 +92,7 @@ a {
 
 .job {
     color: #99e052;
-    font-size: 0.75rem;
+    font-size: 0.8rem;
 }
 
 .hr {
@@ -107,7 +107,7 @@ a {
 }
 
 .description {
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .contact {
