@@ -28,11 +28,13 @@ function App() {
           <hr className="hr" />
           <div className="languages"></div>
           <div className="description">
+          <p><i style={{fontSize: 1.2 + "rem"}} class="fab fa-react"></i> <i style={{fontSize: 1.2 + "rem"}} class="fab fa-js-square"></i> <i style={{fontSize: 1.2 + "rem"}} class="fab fa-python" /> <i style={{fontSize: 1.2 + "rem"}} class="fab fa-html5"></i> <i style={{fontSize: 1.2 + "rem"}} class="fab fa-css3-alt"></i></p>
             <p>
-              Aspiring web developer with a background in information systems. 
-              Familiar with React JS, Django, Python, JavaScript, HTML, and CSS.
+              Web developer with a background in information systems. 
+              Experienced with React JS, JavaScript, HTML, and CSS. Familiar with Django and Python.
               Enjoys self-improvement in all shapes and forms.
             </p>
+
           </div>
           <div className="contact">
             <a className="button" href="https://www.linkedin.com/in/patllamas/">
@@ -55,11 +57,10 @@ function App() {
                 <i className="fab fa-github"></i>
               </a>
             </li>
-
-
           </ul>
         </main>
       </div>
+
       <div className='CardGroup'>
           <Projects 
             title="Zerazal Photography"
