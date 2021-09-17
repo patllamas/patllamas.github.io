@@ -52,3 +52,10 @@
     grid-template-columns: repeat(1,1fr);
     gap: 60px;
 }
+
+@media screen and (max-width:799px) {
+    .Projects {
+        width: 384px;
+        height: 288px;
+    }
+}

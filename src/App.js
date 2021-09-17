@@ -24,14 +24,14 @@ function App() {
         </aside>
         <main className="about">
           <h1 className="name">Hi, I'm Patrick</h1>
-          <p className="job">Web Developer</p>
+          <p className="job">Front-End Developer</p>
           <hr className="hr" />
           <div className="languages"></div>
           <div className="description">
           <p><i style={{fontSize: 1.2 + "rem"}} class="fab fa-react"></i> <i style={{fontSize: 1.2 + "rem"}} class="fab fa-js-square"></i> <i style={{fontSize: 1.2 + "rem"}} class="fab fa-python" /> <i style={{fontSize: 1.2 + "rem"}} class="fab fa-html5"></i> <i style={{fontSize: 1.2 + "rem"}} class="fab fa-css3-alt"></i></p>
             <p>
-              Web developer with a background in information systems. 
-              Experienced with React JS, JavaScript, HTML, and CSS. Familiar with Django and Python.
+              Front-end developer with a background in information systems. 
+              Experienced with React JS, JavaScript, HTML, and CSS. Familiar with Django, Python, and SQL.
               Enjoys self-improvement in all shapes and forms.
             </p>
 
@@ -45,6 +45,11 @@ function App() {
           <li>
               <a href='mailto:pat.llamas@outlook.com'>
                 <i className="fas fa-at"></i>
+              </a>
+            </li>
+            <li>
+              <a href='https://drive.google.com/file/d/1-ArmzXvTwDRmtWUj0UGFgsZsmF1j3nZ6/view?usp=sharing'>
+                <i className="fas fa-address-card"></i>
               </a>
             </li>
             <li>
