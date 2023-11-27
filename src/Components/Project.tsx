@@ -2,7 +2,6 @@ import { Card, CardContent, CardMedia, Typography } from "@mui/material";
 import { useEffect, useState } from "react";
 
 const Project = (props: any) => {
-  // needed props: image, name, year, description, technology used
   const [projectInfo, setProjectInfo] = useState({
     image: "amara",
     name: "N/A",

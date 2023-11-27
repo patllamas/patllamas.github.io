@@ -11,7 +11,7 @@ const Landing = () => {
             typography: { xs: "h2", md: "h1" },
           }}
         >
-          Hi I'm Patrick.
+          Hi, I'm Patrick.
         </Typography>
       </Grow>
 
@@ -26,7 +26,7 @@ const Landing = () => {
         </Typography>
       </Fade>
       <Fade in={true} appear style={{ transitionDelay: "1650ms" }}>
-        <Typography sx={{marginBottom: "10px",  typography: { xs: "h5", md: "h3" } }}>
+        <Typography gutterBottom sx={{marginBottom: "18px",  typography: { xs: "h5", md: "h3" } }}>
           Animal Lover.
         </Typography>
       </Fade>
@@ -41,7 +41,7 @@ const Landing = () => {
           </Typography>
           <Typography
             variant="h6"
-            sx={{ marginTop: "10px", marginBottom: "10px" }}
+            sx={{ marginTop: "10px", marginBottom: "18px", }}
           >
             Based in the Washington, DC Area.
           </Typography>

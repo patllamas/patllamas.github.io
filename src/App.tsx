@@ -17,7 +17,7 @@ function App() {
         credits={{ enabled: false }}
         scrollingSpeed={1200}
         licenseKey={process.env.REACT_APP_FULLPAGE_AUTH_TOKEN}
-        sectionsColor={["#89376D", "#F2D100", "#326ef8", ]}
+        sectionsColor={["#412F59", "#BDB8D9", "#9F8FBF", ]}
         render={({ state, fullpageApi }) => {
           return (
             <ReactFullpage.Wrapper>
