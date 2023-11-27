@@ -21,7 +21,7 @@ const Projects = () => {
         <Button
           onClick={() => handleOpen("amara")}
           variant="text"
-          sx={{ fontSize: "35px", margin: "5px", fontWeight: "bold" }}
+          sx={{ fontSize: "35px", margin: "5px", fontWeight: "bold", color:"#592F52" }}
         >
           Amara
         </Button>
@@ -29,7 +29,7 @@ const Projects = () => {
         <Button
           onClick={() => handleOpen("dowehaveliftoff")}
           variant="text"
-          sx={{ fontSize: "35px", margin: "5px", fontWeight: "bold" }}
+          sx={{ fontSize: "35px", margin: "5px", fontWeight: "bold", color:"#592F52" }}
         >
           Do We Have Liftoff?
         </Button>
@@ -37,7 +37,7 @@ const Projects = () => {
         <Button
           onClick={() => handleOpen("lordfairfax")}
           variant="text"
-          sx={{ fontSize: "35px", margin: "5px", fontWeight: "bold" }}
+          sx={{ fontSize: "35px", margin: "5px", fontWeight: "bold", color:"#592F52" }}
         >
           Lord Fairfax
         </Button>
@@ -45,7 +45,7 @@ const Projects = () => {
         <Button
           onClick={() => handleOpen("coolbot")}
           variant="text"
-          sx={{ fontSize: "35px", margin: "5px", fontWeight: "bold" }}
+          sx={{ fontSize: "35px", margin: "5px", fontWeight: "bold", color:"#592F52" }}
         >
           coolbot
         </Button>
