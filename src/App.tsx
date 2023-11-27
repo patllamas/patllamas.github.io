@@ -14,9 +14,10 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <ReactFullpage
-        credits={{enabled: false}}
-        scrollingSpeed={1000}
+        credits={{ enabled: false }}
+        scrollingSpeed={1200}
         licenseKey={process.env.REACT_APP_FULLPAGE_AUTH_TOKEN}
+        sectionsColor={["#89376D", "#F2D100", "#326ef8", ]}
         render={({ state, fullpageApi }) => {
           return (
             <ReactFullpage.Wrapper>
