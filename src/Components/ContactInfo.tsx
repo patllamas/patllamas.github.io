@@ -5,7 +5,8 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 const ContactInfo = () => {
   return (
-    <div>
+    <div style={{textAlign: "center"}}>
+
       <Typography variant="h1">Contact me.</Typography>
       <div>
         <LinkedInIcon />

@@ -2,7 +2,7 @@ import { Typography } from "@mui/material";
 
 const Landing = () => {
   return (
-    <div>
+    <div style={{textAlign: "center"}}>
       <Typography variant="h1">Hi I'm Patrick.</Typography>
       <Typography variant="h3">Software Developer.</Typography>
       <Typography variant="h3">Indie Game Developer.</Typography>
