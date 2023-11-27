@@ -56,7 +56,7 @@ const Project = (props: any) => {
           name: "coolbot",
           year: "2021",
           description:
-            "Created a Discord bot to help moderate users. It also kept track of my Minecraft server status without having to RDP and check it manually.",
+            "Created a Discord bot to help moderate users. It also kept track of my Minecraft server status, without having to RDP and check it manually.",
           technology: "JavaScript, Discord.js",
         });
         break;
