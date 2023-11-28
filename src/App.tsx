@@ -11,6 +11,7 @@ const theme = createTheme({
 });
 
 function App() {
+
   return (
     <ThemeProvider theme={theme}>
       <ReactFullpage
@@ -19,13 +20,18 @@ function App() {
         licenseKey={process.env.REACT_APP_FULLPAGE_AUTH_TOKEN}
         sectionsColor={["#412F59", "#BDB8D9", "#9F8FBF", ]}
         render={({ state, fullpageApi }) => {
+
+          const moveDown = () => {
+            fullpageApi.moveSectionDown();
+          }
+          
           return (
             <ReactFullpage.Wrapper>
               <div className="section">
-                <Landing />
+                <Landing moveDown={moveDown} />
               </div>
               <div className="section">
-                <Projects />
+                <Projects moveDown={moveDown} />
               </div>
               <div className="section">
                 <ContactInfo />
