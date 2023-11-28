@@ -15,12 +15,12 @@ const Landing = (props: any) => {
         </Typography>
       </Grow>
 
-      <Fade in={true} appear style={{ transitionDelay: "1200ms" }}>
+      <Fade in={true} appear style={{ transitionDelay: "1000ms" }}>
         <Typography sx={{ typography: { xs: "h5", md: "h3" } }}>
           Software Developer.
         </Typography>
       </Fade>
-      <Fade in={true} appear style={{ transitionDelay: "1600ms" }}>
+      <Fade in={true} appear style={{ transitionDelay: "1500ms" }}>
         <Typography sx={{ typography: { xs: "h5", md: "h3" } }}>
           Indie Game Developer.
         </Typography>
@@ -33,8 +33,9 @@ const Landing = (props: any) => {
           Animal Lover.
         </Typography>
       </Fade>
-      <Fade in={true} appear style={{ transitionDelay: "2400ms" }}>
-        <div>
+
+      <div>
+        <Fade in={true} appear style={{ transitionDelay: "2500ms" }}>
           <Typography
             variant="h6"
             sx={{ marginTop: "10px", marginBottom: "10px" }}
@@ -42,16 +43,18 @@ const Landing = (props: any) => {
             Cleared front-end software developer, experienced with the
             React/TypeScript/JavaScript stack.
           </Typography>
+        </Fade>
+        <Fade in={true} appear style={{ transitionDelay: "3000ms" }}>
           <Typography
             variant="h6"
             sx={{ marginTop: "10px", marginBottom: "18px" }}
           >
             Based in the Washington, DC Area.
           </Typography>
-        </div>
-      </Fade>
+        </Fade>
+      </div>
 
-      <Fade in={true} appear style={{ transitionDelay: "2600ms" }}>
+      <Fade in={true} appear style={{ transitionDelay: "3500ms" }}>
         <div className={"iconRow"}>
           <Tooltip title="CSS">
             <img
@@ -111,24 +114,23 @@ const Landing = (props: any) => {
           </Tooltip>
         </div>
       </Fade>
-      {/* <Fade in={true} appear style={{ transitionDelay: "3100ms" }}> */}
-      <Fade in={true} appear style={{ transitionDelay: "1ms" }}>
-      <IconButton
-        sx={{
-          left: "50%",
-          marginLeft: "-25px",
-          position: "absolute",
-          bottom: 1.5,
-        }}
-        onClick={props.moveDown}
-      >
-        <KeyboardArrowDownIcon
+      <Fade in={true} appear style={{ transitionDelay: "4000ms" }}>
+        <IconButton
           sx={{
-            fontSize: "50px",
-            color: "white",
+            left: "50%",
+            marginLeft: "-25px",
+            position: "absolute",
+            bottom: 1.5,
           }}
-        />
-      </IconButton>
+          onClick={props.moveDown}
+        >
+          <KeyboardArrowDownIcon
+            sx={{
+              fontSize: "50px",
+              color: "white",
+            }}
+          />
+        </IconButton>
       </Fade>
     </div>
   );
