@@ -22,7 +22,7 @@ const Project = (props: any) => {
           name: "Amara",
           year: "2023",
           description:
-            "Led a team of 8 to create a hand drawn 2D adventure game using the Godot Engine within 1 month.",
+            "Led a team of 8 to create a hand drawn, 2D adventure game using the Godot Engine within 1 month.",
           technology: "Godot, GDScript, Git",
         });
         break;
@@ -44,7 +44,7 @@ const Project = (props: any) => {
           name: "Lord Fairfax",
           year: "2021",
           description:
-            "Developed a full stack pet motel booking website. Complete with user registration, profiles, pets, and booking rooms.",
+            "Developed a full stack pet motel booking website as my final project for my coding boot camp at Coding Dojo. Complete with user registration, profiles, pets, and booking rooms.",
           technology: "Django, Python, HTML, CSS, JavaScript",
         });
         break;
@@ -55,7 +55,7 @@ const Project = (props: any) => {
           name: "coolbot",
           year: "2021",
           description:
-            "Created a Discord bot to help moderate users. It also kept track of my Minecraft server status, without having to RDP and check it manually.",
+            "Created a Discord bot to help moderate users. It also kept track of my personal Minecraft server status, without me having to RDP and check it manually.",
           technology: "JavaScript, Discord.js",
         });
         break;

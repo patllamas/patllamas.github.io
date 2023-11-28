@@ -20,35 +20,35 @@ const Landing = () => {
           Software Developer.
         </Typography>
       </Fade>
-      <Fade in={true} appear style={{ transitionDelay: "1450ms" }}>
+      <Fade in={true} appear style={{ transitionDelay: "1500ms" }}>
         <Typography sx={{ typography: { xs: "h5", md: "h3" } }}>
           Indie Game Developer.
         </Typography>
       </Fade>
-      <Fade in={true} appear style={{ transitionDelay: "1650ms" }}>
+      <Fade in={true} appear style={{ transitionDelay: "1750ms" }}>
         <Typography gutterBottom sx={{marginBottom: "18px",  typography: { xs: "h5", md: "h3" } }}>
           Animal Lover.
         </Typography>
       </Fade>
-      <Fade in={true} appear style={{ transitionDelay: "1850ms" }}>
+      <Fade in={true} appear style={{ transitionDelay: "2000ms" }}>
         <div>
           <Typography
             variant="h6"
             sx={{ marginTop: "10px", marginBottom: "10px" }}
           >
-            Professional front-end software engineer, experienced with the
-            React/TypeScript/JavaScript stack.
+            Cleared front-end software developer, experienced with the
+            React/TypeScript/JavaScript stack. 
           </Typography>
           <Typography
             variant="h6"
             sx={{ marginTop: "10px", marginBottom: "18px", }}
           >
-            Based in the Washington, DC Area.
+            Based in the Washington, DC Area. 
           </Typography>
         </div>
       </Fade>
 
-      <Fade in={true} appear style={{ transitionDelay: "2050ms" }}>
+      <Fade in={true} appear style={{ transitionDelay: "2250ms" }}>
         <div className={"iconRow"}>
           <Tooltip title="CSS">
             <img

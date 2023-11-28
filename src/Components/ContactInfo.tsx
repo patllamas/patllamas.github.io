@@ -5,7 +5,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 const ContactInfo = () => {
   return (
-    <div style={{ textAlign: "center", color: "white" }}>
+    <div style={{ textAlign: "center", color: "white", userSelect: "none" }}>
       <Typography sx={{ typography: { xs: "h2", md: "h1" } }}>
         Contact me.
       </Typography>
