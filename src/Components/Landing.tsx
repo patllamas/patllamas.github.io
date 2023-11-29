@@ -1,4 +1,4 @@
-import { Typography, Grow, Fade, Tooltip, IconButton } from "@mui/material";
+import { Typography, Grow, Fade, Tooltip, IconButton, Slide } from "@mui/material";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 const Landing = (props: any) => {
@@ -114,7 +114,7 @@ const Landing = (props: any) => {
           </Tooltip>
         </div>
       </Fade>
-      <Fade in={true} appear style={{ transitionDelay: "4000ms" }}>
+      <Slide direction="left" in={true} appear style={{ transitionDelay: "4500ms" }}>
         <IconButton
           sx={{
             left: "50%",
@@ -131,7 +131,7 @@ const Landing = (props: any) => {
             }}
           />
         </IconButton>
-      </Fade>
+      </Slide>
     </div>
   );
 };
