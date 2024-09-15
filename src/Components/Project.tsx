@@ -3,9 +3,9 @@ import { useEffect, useState } from "react";
 
 const Project = (props: any) => {
   return (
-    <Paper>
+    <Paper sx={{maxHeight:"650px", height: "650px",}}>
       <CardMedia
-        sx={{ height: "350px" }}
+        sx={{ height: "450px", }}
         image={require(`../images/Projects/${props.projectInfo.image}.png`)}
         title="Amara"
       />
