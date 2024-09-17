@@ -10,17 +10,17 @@ const ContactInfo = () => {
         Contact me.
       </Typography>
       <div>
-        <IconButton href="https://www.linkedin.com/in/patllamas/">
+        <IconButton href="https://www.linkedin.com/in/patllamas/" target="_blank">
           <Tooltip title="LinkedIn">
             <LinkedInIcon sx={{ color: "white", fontSize: 45 }} />
           </Tooltip>
         </IconButton>
-        <IconButton href="https://drive.google.com/file/d/1j8ZHkVB8OXmieoJCr4ARw35FMrhvuDmt/view?usp=sharing">
+        <IconButton href="https://drive.google.com/file/d/1j8ZHkVB8OXmieoJCr4ARw35FMrhvuDmt/view?usp=sharing" target="_blank"> 
           <Tooltip title="Resume">
             <WorkHistoryIcon sx={{ color: "white", fontSize: 45 }} />
           </Tooltip>
         </IconButton>
-        <IconButton href="https://github.com/patllamas">
+        <IconButton href="https://github.com/patllamas" target="_blank">
           <Tooltip title="Github">
             <GitHubIcon sx={{ color: "white", fontSize: 45 }} />
           </Tooltip>

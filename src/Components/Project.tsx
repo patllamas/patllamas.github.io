@@ -16,7 +16,7 @@ const Project = (props: any) => {
         height: { xs: "450px", md: "675px" },
       }}
     >
-      <Link href={props.projectInfo.link}>
+      <Link href={props.projectInfo.link} target="_blank">
         <CardMedia
           sx={{ height: { xs: "150px", md: "450px" } }}
           image={require(`../images/Projects/${props.projectInfo.image}.png`)}
@@ -24,9 +24,7 @@ const Project = (props: any) => {
         />
       </Link>
       <CardContent>
-        <Typography variant="h4" gutterBottom>
-          {props.projectInfo.name}
-        </Typography>
+        <Typography variant="h4">{props.projectInfo.name}</Typography>
 
         <Typography variant="body1" sx={{ fontSize: "1.20rem" }}>
           {props.projectInfo.year}
@@ -43,6 +41,13 @@ const Project = (props: any) => {
           sx={{ fontSize: { xs: ".9rem", md: "1rem" } }}
         >
           {props.projectInfo.description}
+        </Typography>
+        <Typography
+          variant="body1"
+          color={"#00308F"}
+          sx={{ fontSize: { xs: ".9rem", md: "1rem" }, fontWeight:"bold"}}
+        >
+          {props.projectInfo.award}
         </Typography>
       </CardContent>
     </Paper>
