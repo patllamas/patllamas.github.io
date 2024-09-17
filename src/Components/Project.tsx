@@ -1,25 +1,49 @@
-import { Card, CardContent, CardMedia, Paper, Typography } from "@mui/material";
+import {
+  Card,
+  CardContent,
+  CardMedia,
+  Link,
+  Paper,
+  Typography,
+} from "@mui/material";
 import { useEffect, useState } from "react";
 
 const Project = (props: any) => {
   return (
-    <Paper sx={{maxHeight:"650px", height: "650px",}}>
-      <CardMedia
-        sx={{ height: "450px", }}
-        image={require(`../images/Projects/${props.projectInfo.image}.png`)}
-        title="Amara"
-      />
+    <Paper
+      sx={{
+        maxHeight: { xs: "500px", md: "675px" },
+        height: { xs: "450px", md: "675px" },
+      }}
+    >
+      <Link href={props.projectInfo.link}>
+        <CardMedia
+          sx={{ height: { xs: "150px", md: "450px" } }}
+          image={require(`../images/Projects/${props.projectInfo.image}.png`)}
+          title="Amara"
+        />
+      </Link>
       <CardContent>
-        <Typography gutterBottom variant="h5">
+        <Typography variant="h4" gutterBottom>
           {props.projectInfo.name}
         </Typography>
-        <Typography variant="body1">
-          Technology Used: {props.projectInfo.technology}
-        </Typography>
-        <Typography variant="body1" gutterBottom>
+
+        <Typography variant="body1" sx={{ fontSize: "1.20rem" }}>
           {props.projectInfo.year}
         </Typography>
-        <Typography variant="body1">{props.projectInfo.description}</Typography>
+        <Typography
+          variant="body1"
+          gutterBottom
+          sx={{ fontSize: { xs: ".9rem", md: "1rem" } }}
+        >
+          Technology Used: {props.projectInfo.technology}
+        </Typography>
+        <Typography
+          variant="body1"
+          sx={{ fontSize: { xs: ".9rem", md: "1rem" } }}
+        >
+          {props.projectInfo.description}
+        </Typography>
       </CardContent>
     </Paper>
   );
