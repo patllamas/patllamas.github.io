@@ -1,5 +1,15 @@
-import { Typography, Grow, Fade, Tooltip, IconButton, Slide } from "@mui/material";
+import {
+  Fab,
+  Typography,
+  Grow,
+  Fade,
+  Tooltip,
+  IconButton,
+  Slide,
+  Button,
+} from "@mui/material";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import ContactPageIcon from "@mui/icons-material/ContactPage";
 
 const Landing = (props: any) => {
   return (
@@ -114,7 +124,25 @@ const Landing = (props: any) => {
           </Tooltip>
         </div>
       </Fade>
-      <Slide direction="left" in={true} appear style={{ transitionDelay: "4500ms" }}>
+      <Fade in={true} appear style={{ transitionDelay: "4000ms" }}>
+        <Button
+          sx={{
+            marginTop: "20px",
+          }}
+          variant="contained"
+          size="large"
+          onClick={props.moveToContact}
+          startIcon={<ContactPageIcon />}
+        >
+          Contact
+        </Button>
+      </Fade>
+      <Slide
+        direction="left"
+        in={true}
+        appear
+        style={{ transitionDelay: "5000ms" }}
+      >
         <IconButton
           sx={{
             left: "50%",

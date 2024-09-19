@@ -18,24 +18,30 @@ function App() {
         credits={{ enabled: false }}
         scrollingSpeed={1200}
         licenseKey={process.env.REACT_APP_FULLPAGE_AUTH_TOKEN}
+        anchors={["index","projects","contact"]}
         sectionsColor={["#412F59", "#BDB8D9", "#9F8FBF", ]}
         render={({ state, fullpageApi }) => {
 
           const moveDown = () => {
             fullpageApi.moveSectionDown();
           }
+
+          const moveToContact = () => {
+            fullpageApi.moveTo(3)
+          }
           
           return (
             <ReactFullpage.Wrapper>
-              <div className="section">
-                <Landing moveDown={moveDown} />
+              <div className="section" data-anchor="index">
+                <Landing moveDown={moveDown} moveToContact={moveToContact} />
               </div>
-              <div className="section">
+              <div className="section" data-anchor="projects">
                 <Projects moveDown={moveDown} />
               </div>
-              <div className="section">
+              <div className="section" data-anchor="contact">
                 <ContactInfo />
               </div>
+              
             </ReactFullpage.Wrapper>
           );
         }}
