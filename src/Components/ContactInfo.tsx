@@ -15,7 +15,7 @@ const ContactInfo = () => {
             <LinkedInIcon sx={{ color: "white", fontSize: 45 }} />
           </Tooltip>
         </IconButton>
-        <IconButton href="https://drive.google.com/file/d/1j8ZHkVB8OXmieoJCr4ARw35FMrhvuDmt/view?usp=sharing" target="_blank"> 
+        <IconButton href="https://drive.google.com/file/d/1QYlRziVf063V_Y8uK34IU_FzQEzI9iAT/view?usp=sharing" target="_blank"> 
           <Tooltip title="Resume">
             <WorkHistoryIcon sx={{ color: "white", fontSize: 45 }} />
           </Tooltip>

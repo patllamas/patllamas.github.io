@@ -32,20 +32,20 @@ const Project = (props: any) => {
         <Typography
           variant="body1"
           gutterBottom
-          sx={{ fontSize: { xs: ".9rem", md: "1rem" } }}
+          sx={{ fontSize: { xs: ".8rem", md: "1rem" } }}
         >
           Technology Used: {props.projectInfo.technology}
         </Typography>
         <Typography
           variant="body1"
-          sx={{ fontSize: { xs: ".9rem", md: "1rem" } }}
+          sx={{ fontSize: { xs: ".8rem", md: "1rem" } }}
         >
           {props.projectInfo.description}
         </Typography>
         <Typography
           variant="body1"
           color={"#00308F"}
-          sx={{ fontSize: { xs: ".9rem", md: "1rem" }, fontWeight:"bold"}}
+          sx={{ fontSize: { xs: ".8rem", md: "1rem" }, fontWeight:"bold"}}
         >
           {props.projectInfo.award}
         </Typography>
