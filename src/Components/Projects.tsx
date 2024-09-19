@@ -93,6 +93,7 @@ const Projects = (props: any) => {
           display: "block",
           marginLeft: "auto",
           marginRight: "auto",
+          marginBottom: "30px",
           width: {xs:"80%", md: "40%"},
         }}
       >
