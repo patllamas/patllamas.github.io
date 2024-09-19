@@ -24,7 +24,7 @@ const Project = (props: any) => {
         />
       </Link>
       <CardContent>
-        <Typography variant="h4">{props.projectInfo.name}</Typography>
+        <Typography sx={{ typography: { xs: "h5", md: "h4" }, }}>{props.projectInfo.name}</Typography>
 
         <Typography variant="body1" sx={{ fontSize: "1.20rem" }}>
           {props.projectInfo.year}

@@ -84,17 +84,16 @@ const Projects = (props: any) => {
   return (
     <div style={{ textAlign: "center", userSelect: "none"}}>
       <Typography
-        sx={{ typography: { xs: "h3", md: "h2" }, marginBottom: "30px" }}
+        sx={{ typography: { xs: "h4", md: "h2" }, marginBottom: "30px" }}
       >
         Games and projects I've created.
       </Typography>
-      <div
-        style={{
+      <Box
+        sx={{
           display: "block",
           marginLeft: "auto",
           marginRight: "auto",
-          // width: "40%",
-          width: "600px"
+          width: {xs:"80%", md: "40%"},
         }}
       >
         <Carousel sx={{ maxWidth: {xs: "300px", md:"600px"} }}>
@@ -102,7 +101,7 @@ const Projects = (props: any) => {
             <Project projectInfo={project} />
           ))}
         </Carousel>
-      </div>
+      </Box>
       <IconButton
         sx={{
           left: "50%",
