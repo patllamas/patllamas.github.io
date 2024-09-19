@@ -94,7 +94,7 @@ const Projects = (props: any) => {
           marginLeft: "auto",
           marginRight: "auto",
           marginBottom: "30px",
-          width: {xs:"80%", md: "40%"},
+          width: {xs:"80%", md: "600px"},
         }}
       >
         <Carousel sx={{ maxWidth: {xs: "300px", md:"600px"} }}>
