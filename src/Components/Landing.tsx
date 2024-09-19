@@ -12,6 +12,8 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import ContactPageIcon from "@mui/icons-material/ContactPage";
 
 const Landing = (props: any) => {
+  const iconTooltip = () => {};
+
   return (
     <div style={{ textAlign: "center", color: "white", userSelect: "none" }}>
       <Grow in={true} appear style={{ transitionDelay: "150ms" }}>
@@ -66,7 +68,7 @@ const Landing = (props: any) => {
 
       <Fade in={true} appear style={{ transitionDelay: "3500ms" }}>
         <div className={"iconRow"}>
-          <Tooltip title="CSS">
+          <Tooltip title="CSS" placement="top" arrow>
             <img
               width="50"
               height="50"
@@ -74,7 +76,7 @@ const Landing = (props: any) => {
               alt="css"
             />
           </Tooltip>
-          <Tooltip title="HTML">
+          <Tooltip title="HTML" placement="top" arrow>
             <img
               width="50"
               height="50"
@@ -82,7 +84,7 @@ const Landing = (props: any) => {
               alt="html"
             />
           </Tooltip>
-          <Tooltip title="JavaScript">
+          <Tooltip title="JavaScript" placement="top" arrow>
             <img
               width="50"
               height="50"
@@ -90,7 +92,7 @@ const Landing = (props: any) => {
               alt="javascript"
             />
           </Tooltip>
-          <Tooltip title="TypeScript">
+          <Tooltip title="TypeScript" placement="top" arrow>
             <img
               width="50"
               height="50"
@@ -98,7 +100,7 @@ const Landing = (props: any) => {
               alt="typescript"
             />
           </Tooltip>
-          <Tooltip title="React JS">
+          <Tooltip title="React JS" placement="top" arrow>
             <img
               width="50"
               height="50"
@@ -106,7 +108,7 @@ const Landing = (props: any) => {
               alt="react"
             />
           </Tooltip>
-          <Tooltip title="Python">
+          <Tooltip title="Python" placement="top" arrow>
             <img
               width="50"
               height="50"
@@ -114,7 +116,7 @@ const Landing = (props: any) => {
               alt="python"
             />
           </Tooltip>
-          <Tooltip title="Godot Game Engine">
+          <Tooltip title="Godot Game Engine" placement="top" arrow>
             <img
               width="50"
               height="50"

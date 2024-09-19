@@ -11,17 +11,17 @@ const ContactInfo = () => {
       </Typography>
       <div>
         <IconButton href="https://www.linkedin.com/in/patllamas/" target="_blank">
-          <Tooltip title="LinkedIn">
+          <Tooltip title="LinkedIn" arrow>
             <LinkedInIcon sx={{ color: "white", fontSize: 45 }} />
           </Tooltip>
         </IconButton>
         <IconButton href="https://drive.google.com/file/d/1QYlRziVf063V_Y8uK34IU_FzQEzI9iAT/view?usp=sharing" target="_blank"> 
-          <Tooltip title="Resume">
+          <Tooltip title="Resume" arrow>
             <WorkHistoryIcon sx={{ color: "white", fontSize: 45 }} />
           </Tooltip>
         </IconButton>
         <IconButton href="https://github.com/patllamas" target="_blank">
-          <Tooltip title="Github">
+          <Tooltip title="Github" arrow>
             <GitHubIcon sx={{ color: "white", fontSize: 45 }} />
           </Tooltip>
         </IconButton>
