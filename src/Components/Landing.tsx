@@ -130,6 +130,10 @@ const Landing = (props: any) => {
         <Button
           sx={{
             marginTop: "20px",
+            backgroundColor: "#9f8fbf",
+            "&:hover": {
+              backgroundColor: "#BDB8D9",
+            },
           }}
           variant="contained"
           size="large"
