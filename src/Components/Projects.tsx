@@ -23,6 +23,16 @@ const Projects = (props: any) => {
 
   var projects = [
     {
+      image: "dokijam",
+      name: "Doki's Dream Heist",
+      year: "August 2025",
+      description:
+        "As a game director of 4, I led the team to create a 32-bit top down shooter game in the Godot Engine within two weeks for Doki-Jam 2025. Led the vision for all gameplay elements including enemies, upgrades, online leaderboard, player controller, and a time trial. Delivered a fully playable browser game.",
+      technology: "Godot 4.4, GDScript, Git",
+      link: "https://starcerealgames.itch.io/dokis",
+      award: "",
+    },
+    {
       image: "barhaus",
       name: "Barhaus Bastion",
       year: "August 2024",
